@@ -13,6 +13,40 @@
 </head>
 
 <body>
+   
+    <script>
+    
+        function myFunction() {
+
+            document.getElementById("click_box").style.zIndex = "-2";
+            document.getElementById("click_box").style.marginBottom = "-50%";
+            document.getElementById("click_page").style.zIndex = "-2";
+            document.getElementById("click_page").style.marginBottom = "-50%";
+
+            mainVideo.play();
+    
+            }
+
+window.ontouchend = myFunction;
+window.onclick = myFunction;
+    
+    </script>
+    
+    
+    <img id="click_page" src="images/black.png">
+    
+     <div id="click_box">
+    <p id="click_text">
+        CRAWL BACK INTO<br><br>
+        THE TUNNELS FROM<br><br>
+        WHENCE WE CAME<br><br>
+        A PASSAGE<br><br>
+        A PORTAL<br><br>
+        A DEPTH<br><br>
+        RECLAIMED<br><br><br>
+        ...CLICK TO ENTER
+        </p>
+    </div>
     
     <script src="js/script.js"></script>
         
@@ -21,7 +55,7 @@
     
 <!--        <img src="images/test.png";> -->
         
-        <video id=mainVideo controls autoplay loop playsinline width="640" height="480" class="center">
+        <video id=mainVideo autoplay loop playsinline width="640" height="480" class="center">
             
             <source src="videos/catacombs4.mp4" type="video/mp4">
         
@@ -30,7 +64,7 @@
         
     </div>
     
-    <img id="title" src="images/TITLE2.png";>
+    <img id="title" src="images/title2.png";>
     
     <img id="info" src="images/info2.png";>    
     
