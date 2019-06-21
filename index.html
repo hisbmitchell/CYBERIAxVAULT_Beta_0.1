@@ -18,10 +18,8 @@
     
         function myFunction() {
 
-            document.getElementById("click_box").style.zIndex = "-2";
-            document.getElementById("click_box").style.marginBottom = "-50%";
-            document.getElementById("click_page").style.zIndex = "-2";
-            document.getElementById("click_page").style.marginBottom = "-50%";
+            document.getElementById("click_box").remove();
+            document.getElementById("click_page").remove();
 
             mainVideo.play();
     
