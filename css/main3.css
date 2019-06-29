@@ -42,6 +42,20 @@ p {
     margin-right: auto;
     max-width: 100%;
 }
+ul {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-align: left;
+    padding: 5%;    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 35%;
+}
+
+li {
+    
+    padding: 1%;
+}
 
 mark {
     background-color: greenyellow;
@@ -83,6 +97,10 @@ a:hover {
 
 #credit {
         max-width:25%;
+    }
+
+#checklist {
+        max-width:45%;
     }
 
 #credit_link {
@@ -132,9 +150,29 @@ a:hover {
     
     p {
         font-size: 80%;
-        margin-bottom: 50%;
+        margin-bottom: 20%;
     }
-    
+        ul {
+        font-family: 'Roboto Mono', monospace;
+        color: white;
+        text-align: centre;
+        padding: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20%;
+        max-width: 75%;
+        font-size: 80%;
+        padding-left: 15%;
+    }
+
+    li {
+        text-align: left;
+        padding: 1%;
+        
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
      #mainVideo {
         display:block;
         margin-left: auto;
@@ -179,8 +217,8 @@ a:hover {
     }
     
     #credit {
-        margin-top: -50%;
-        max-width: 40%;
+        margin-top: 2%;
+        max-width: 50%;
         
     }
     
@@ -188,6 +226,12 @@ a:hover {
         font-size: 85%;
         margin-bottom: 50%;
 
+    }
+    
+    #checklist {
+        margin-top: 2%;
+        max-width: 80%;
+        
     }
 
     #click_box {
