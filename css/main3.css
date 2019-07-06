@@ -139,6 +139,11 @@ a:hover {
     background:black;
 }
 
+#disclaimer {
+    text-align: justify;
+    max-width: 60%; 
+}
+
 /*-------------------MOBILE VERSION---------------*/
 
 @media (max-width:900px) {
@@ -241,4 +246,12 @@ a:hover {
     max-width: 53%;
     margin:auto;
     z-index; 6;  
+    }
+    #disclaimer {
+        text-align: left;
+        text-justify: distribute;
+        max-width: 85%;
+        padding-left: 5%;
+
+    
     }
